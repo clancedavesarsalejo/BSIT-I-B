@@ -4,7 +4,7 @@ public class Greeting {
         Scanner scanner = new Scanner(System.in);
 
         // LUMANTAO_ACTIVITY_II
-        System.out.print("Enter your name: ");
+        System.out.print("LUMANTAO_ACTIVITY_II: ");
         String name = scanner.nextLine();
 
         // LUMANTO_ACTIVITY_II
