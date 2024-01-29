@@ -1,5 +1,5 @@
 import java.util.scanner;
-public class MAG-ASO_ACTIVITY_2 {
+public class VILLANUEVA_ACTIVITY_2 {
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your first number: ");
