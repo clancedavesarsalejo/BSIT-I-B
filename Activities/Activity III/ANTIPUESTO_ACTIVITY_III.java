@@ -1,15 +1,14 @@
 import java.util.Scanner;
-public class Antipuesto_ACTIVITY_III {
-  public static void main (String []args) {
-    Scanner sc = new Scanner(System.in);
+public class VERA_ACTIVITY_III{
+    public static void main(String[]args){
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Please input the temperature in Celsuis: ");
+        int temp =  sc.nextInt(); 
 
-    System.out.println("Water Temp!!");
-    System.out.println("Pls input a integer: ");
-    int x = sc.nextInt();
-    if(x >= 100) {
-      System.out.println("Boiling");
-    } else {
-      System.out.println("Not boiling");
+        if(temp >= 100){
+            System.out.println("Boiling!");
+        }else{
+            System.out.print("Not boiling");
+        }
     }
-  }
 }
