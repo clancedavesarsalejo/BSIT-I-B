@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class VERA_ACTIVITY_III{
+public class ANTIPUESTO_ACTIVITY_III{
     public static void main(String[]args){
         Scanner sc = new Scanner (System.in);
         System.out.print("Please input the temperature in Celsuis: ");
