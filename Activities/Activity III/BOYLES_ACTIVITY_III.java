@@ -12,9 +12,6 @@ import java.util.Scanner;
              else if(temp <= 100){
                 System.out.println("Not Boiling");
              }
-             else{
-                System.out.println("Not Boiling");
-             }
             }while (temp !=0);
 
 
