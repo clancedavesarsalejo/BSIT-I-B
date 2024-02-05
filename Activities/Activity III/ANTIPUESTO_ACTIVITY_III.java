@@ -3,7 +3,7 @@ public class Antipuesto_ACTIVITY_III {
   public static void main (String []args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Water Sensor!!");
+    System.out.println("Water Temp!!");
     System.out.println("Pls input a integer: ");
     int x = sc.nextInt();
     if(x >= 100) {
