@@ -1,17 +1,13 @@
-public class bayaton_activity_1{
-    public static void main(String[]args){
-        int a = 3;
-        int b = 2;
-        int c = 4;
-
-        int d = a+b;
-        int e = a-c;
-        int f = c*a;
-        int g = a/b;
-
-        System.out.println ("Addition:" + d);
-        System.out.println ("Subtraction:" - e);
-        System.out.println ("Multiply:" * f);
-        System.out.println ("Divide:" / g);
-    }
-}   
+public class BAYATON_ACTIVITY_I{
+    public static void main (String[]args){
+        int x = 30;
+        int y = 20;
+        int z = 50;
+        
+        System.out.println(x*y/z);
+        System.out.println(x+y+z);
+        System.out.println(x-y-z);
+        System.out.println(x*y*z);
+        System.out.println(x/y/z);
+     }
+}
