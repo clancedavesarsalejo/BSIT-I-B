@@ -10,8 +10,6 @@ public class ACAYLAR_ACTIVITY_III {
 
         if (celsius >= 100) {
             System.out.println("Boiling");
-        } else if (celsius <= 70) {
-            System.out.println("Not Boiling");
         } else {
             System.out.println("Not Boiling");
         }
