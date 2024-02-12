@@ -13,7 +13,4 @@ public class CAMPO_ACTIVITY_V {
 	{System.out.println("Teen");
 	} else if (age >= 18 && age <= 64)
 	{System.out.println("Adult");
-	} else
-	{System.out.println("Too old");
-
 }}}
