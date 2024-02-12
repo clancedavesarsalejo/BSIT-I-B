@@ -1,13 +1,24 @@
-import java.util.Scanner;
-public class Greeting {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+public class LUMANTAO_ACTIVITY_I {
+public static void main(String[] args) {
+    //Declare Variables
+    int a = 12;
+    int b = 7;
+    int c = 8;
 
-        // LUMANTAO_ACTIVITY_II
-        System.out.print("LUMANTAO_ACTIVITY_II: ");
-        String name = scanner.nextLine();
+    int sum = c + b;
+    int difference = a - b;
+    int product = a * b;
+    int quotient = a / c;
+    
+    System.out.println(sum);
+    System.out.println(difference);
+    System.out.println(product);
+    System.out.println(quotient);
 
-        // LUMANTO_ACTIVITY_II
-        System.out.println("Hello, " + LUMANTO_ACTIVITY_II + "! Nice to meet you.");
-    }
+}
+
+
+
+
+
 }
