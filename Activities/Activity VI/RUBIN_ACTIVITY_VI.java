@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RUBIN_ACTIVITY_VII {
+public class RUBIN_ACTIVITY_VI {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
