@@ -8,7 +8,7 @@ import java.util.Scanner;
             
             long number = sc.nextInt();
             long fact = 1;
-            for(long x=1; x(<= number;x++){
+            for(long x=1; x <= number;x++){
                 fact*=x;
 
                 System.out.print(fact);
