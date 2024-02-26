@@ -1,18 +1,13 @@
-public class TROCIO_ACTIVITY_I {
-    public  static void main (String []args) {
-int a = 1;
-int b = 23;
-int c = 2004;
+public class TROCIO_ACTIVITY_I{
+    public static void main(String[]args){
+        int x = 10;
+        int y = 20;
+        int z = 15;
 
-int d = a+b;
-int e = a+c;
-int f = c*a;
-int g = a/b;
-
-System.out.println("Addition:" + d);
-        System.out.println("Multiplication:" + e);
-        System.out.println("Subtraction:" + f);
-        System.out.println("Division:" + g);
+        System.out.println(x*y-z);
+        System.out.println(x+y+z);
+        System.out.println(x-y-z);
+        System.out.println(x*y*z);
+        System.out.println(x/y/z);
     }
-
 }
