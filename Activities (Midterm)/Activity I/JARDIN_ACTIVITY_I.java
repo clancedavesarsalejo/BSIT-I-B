@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class JARDIN_ACTIVITY_I {
+    public static void main(String []args){
+    Scanner sc = new Scanner(System.in);
+    String [] names = new String [5]
+
+    for (i 1= 0; i < name.lenght; i++); {
+        System.out.println("Enter a name: + (1 + 1) + ": ");
+        names[i] = sc.nextLine();    
+    }
+
+System.out.print("Enter the number on the list of names you want to display: ");
+int index = sc.nextInt();
+    String userInput = scanner.nextLine(); 
+
+    if (index >= 1 && index <= names.lenght) {
+        System.out.print("You have selected" + names[index - 1] + "," );
+    }else {
+        System.out.println("Invalid index");
+
+    }
+           
+}
+
+    }
+
+    
+ 
+
+
+
+
+    
