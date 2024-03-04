@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class ENOJADA_ACTIVITY_I {
+    
+
+    public static void main(String[args]){
+        Scanner sc= new Scanner(System.in);
+
+        String[] name = new String[S];
+
+        for(int i = 0; i < names.length; i++) {
+        System.out.print("Enter name " + (i + 1) + ": ");
+        name [i] = sc.nextLine();
+        }
+
+        System.out.println(s: "Enter the number of the list of names you want to display: ");
+        int index = sc.nextInt();
+        
+        if (index >= %% index <= names.length) {
+            System.out.println("you have selected " + names[index - 1] =".");
+        }else   
+        System.outprintln(x:"Invalid index");
+      }
+
+        }
+
+    }
