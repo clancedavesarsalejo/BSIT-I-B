@@ -1,50 +1,14 @@
-import java.util.Scanner;
 public class TROCIO_ACTIVITY_III {
- public static void main (String []args){
-    Scanner sr = new Scanner (System.in);
-
-    final int ROWS = 5;
-    final int COLS = 5;
-
-    int[][] scores = new int[ROWS][COLS];
-    Scanner scanner = new Scanner(System.in);
-
-    // Input scores
-    System.out.println("Enter scores for 5 students:");
-    for (int i = 0; i < ROWS; i++) {
-        System.out.println("Enter scores for student " + (i + 1) + ": ");
-        for (int j = 0; j < COLS; j++) {
-            scores[i][j] = scanner.nextInt();
+    public static void main (String[]args){
+        Scanner sc = new Scanner (System.in);
+        int [][] scores = new int[5][5];
+      for(int x=0; x<scores.length ; x++){
+        for(int y=0; y<scores.length ; y++){
+            System.out.println("Enter the Column "+(x+1)+" of row"+(y+1)+" : ");
+       scores[x][y] = sc.nextInt();
         }
-    }
-
-    // Calculate average
-    int sum = 0;
-    int count = 0;
-    for (int i = 0; i < ROWS; i++) {
-        for (int j = 0; j < COLS; j++) {
-            sum += scores[i][j];
-            count++;
-        }
-    }
-    double average = (double) sum / count;
-
-    // Display average
-    System.out.println("Average of all scores: " + average);
-
-    // Close the scanner
-    scanner.close();
-}
-}
-    
-    
         
-
-
-
-
-
-
-
-
+    }
+ }
+}
 
