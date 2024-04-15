@@ -1,30 +1,25 @@
 import java.util.Scanner;
 
 public class DELACERNA_ACTIVITY_I {
-
     public static void main(String[] args) {
-        String[] namesArray = new String[5];
-        Scanner scanner = new Scanner(System.in);
+        String[] names = new String[5];
 
-        
         for (int i = 0; i < 5; i++) {
-            System.out.println("Enter name #" + (i + 1) + ":");
-            namesArray[i] = scanner.nextLine().trim();
+            System.out.print("Enter the name " + (i + 1) + ": ");
+            names[i] = sc.nextLine();
         }
 
-        
-        System.out.println("Enter the number of the name you want to select (1-5):");
-        int selectedNumber = scanner.nextInt();
-        scanner.nextLine(); 
+        System.out.print("Enter the number of the name you would like to select (1-5): ");
+        int selection = sc.nextInt();
 
-        
-        if (selectedNumber < 1 || selectedNumber > 5) {
-            System.out.println("Invalid input. Please enter a number between 1 and 5.");
+        if (selection >= 1 && selection <= 5) {
+
+            String selectedName = names[selection - 1];
+            System.out.println("You have selected: " + selection + " is: " + selectedName);
         } else {
-            String selectedName = namesArray[selectedNumber - 1];
-            System.out.println("The name you selected is: " + selectedName);
+            System.out.println("Invalid selection.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }
