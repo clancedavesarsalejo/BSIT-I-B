@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class VILLANUEVA_ACTIVITY_I {
+   public static void main(String []args){
+    int length = getLength();
+    int width = getWidth();
+   }
+
+   public static int getLength(){
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter the length of the rectangle: ");
+    return sc.nextInt();
+   }
+
+   public static int getWidth(){
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter the width of the rectangle: ");
+    return sc.nextInt();
+   }
+    }
+
