@@ -1,41 +1,36 @@
-import java.util.Scanner;
-
-public class DELACERNA_ACTIVITY_III {
+public class   DELACERNA_ACTIVITY_III {
     public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
+        int[][] Score = {
+            {1, 2, 3, 4, 5},
+            {6, 7, 8, 9, 10},
+            {11, 12, 13, 14, 15},
+            {16, 17, 18, 19, 20},
+            {21, 22, 23, 24, 25}
+        };
         
-        double[][] scores = new double[5][5];
+        int sum = 0; 
 
-        
-        System.out.println("Enter the scores:");
-
-        
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                System.out.print("Enter score for row " + (i + 1) + ", column " + (j + 1) + ": ");
-                scores[i][j] = scanner.nextDouble();
+        for (int i = 0; i < 25; i++) {
+            System.out.print("Input Score" + ": ");
+            int score = sc.nextInt();
+            
+            sum += score; 
+            
+            
+            for (int x = 0; x < Score.length; x++) {
+                for (int y = 0; y < Score[x].length; y++) {
+                    if (Score[x][y] == score) {
+                        System.out.println("Score at position (" + x + "," + y + ") is " + score);
+                    }
+                }
             }
         }
-
         
-        scanner.close();
-
+        System.out.println("Sum of all scores: " + sum); 
         
-        double sum = 0;
-        int count = 0;
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                sum += scores[i][j];
-                count++;
-            }
-        }
-
-        
-        double average = sum / count;
-
-        
-        System.out.println("Average score: " + average);
+        double average = (double) sum / 25; 
+        System.out.println("Average of all scores: " + average); 
     }
 }
