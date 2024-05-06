@@ -1,21 +1,21 @@
 import java.util.Scanner;
-class GONZALES_ACTIVITY_I {
-    
-  public int addNumbers(int width, int length ) {
-    int product = width * length;
-    
-    return product;
-  }
 
-  public static void main(String[] args) {
-    
-    int num1 = 10;
-    int num2 = 20;
-
-  
-    GONZALES_ACTIVITY_I obj = new GONZALES_ACTIVITY_I();
-   
-    int result = obj.addNumbers(num1, num2);
-    System.out.println("Area is: " + result);
-  }
+public class GONZALES_ACTIVITY_I{
+public static void main(String[]args){
+int length = lengthinput();
+int width = widthinput();
+int area = length * width;
+System.out.println("Area is "+ area);
 }
+
+  static int lengthinput(){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter length: ");
+return sc.nextInt();
+}
+
+static int widthinput(){
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter width: ");
+  return sc.nextInt();
+}}
