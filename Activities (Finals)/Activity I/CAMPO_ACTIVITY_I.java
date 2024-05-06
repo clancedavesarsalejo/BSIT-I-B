@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CAMPO_ACTIVITY_one{
+public class CAMPO_ACTIVITY_I{
 public static void main(String[]args){
 int length = lengthinpt();
 int width = widthinpt();
