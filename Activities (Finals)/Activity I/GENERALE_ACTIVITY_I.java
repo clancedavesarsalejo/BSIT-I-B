@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Generale_Activity_I {
+public class GENERALE_ACTIVITY_I {
 public static void main(String[] args) {
     
     int length = getLength();
