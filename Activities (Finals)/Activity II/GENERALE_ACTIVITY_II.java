@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Generale_Activity_II {
+public class GENERALE_ACTIVITY_II {
     
     static void convert(double feet) {
         double inches = feet * 12.0;
