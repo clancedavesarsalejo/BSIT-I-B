@@ -1,6 +1,5 @@
 import java.util.Scanner;
      public class PONO_ACTIVITY_VI {
-
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
 
