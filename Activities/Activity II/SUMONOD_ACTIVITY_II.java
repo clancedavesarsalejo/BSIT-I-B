@@ -12,9 +12,9 @@ public class SUMONOD_ACTIVITY_II{
     int diff = firstNumber - secondNumber;
     int product = firstNumber * secondNumber;
 
-    System.out.println("sum =" + sum);
-    System.out.println("difference =" + diff);
-    System.out.println("product =" + product);
+    System.out.println("Sum =" + sum);
+    System.out.println("Difference =" + diff);
+    System.out.println("Product =" + product);
 
     sc.close();
 
