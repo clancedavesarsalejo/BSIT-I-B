@@ -12,9 +12,7 @@ public class PESCUELA_ACTIVITY_I{
         System.out.println(sum);
         System.out.println(diff);
         System.out.println(prod);
-        System.out.println(qout);
-
-
+        System.out.println(quot);
 
     }
 }
