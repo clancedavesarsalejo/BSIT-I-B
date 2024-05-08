@@ -7,10 +7,9 @@ public class PESCUELA_ACTIVITY_I {
         
         for (int i = 0 ; i < names.length ; i++ ){
 
-            System.out.print("Enter a name: "+(i+1)+" : ");
-        names[i] = sc.nextLine();
-            
-        }
+            System.out.print("Enter a name "+(i+1)+" : ");
+            names[i] = sc.nextLine(); 
+            }
         System.out.print("Please input the number of the list of names you would like to display: ");
         int n = sc.nextInt();
         if(n>= 1 && n <= names.length){
