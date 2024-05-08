@@ -1,22 +1,18 @@
 import java.util.Scanner;
 public class PESCUELA_ACTIVITY_I {
-    static int lenght(){
-        System.out.println(lenght);
+    static int length(int x) {
+        return x;
     }
-    static int width(){
-        System.out.println(width);
+    static int width(int y) {
+        return y;
     }
     public static void main(String[] args) {
-        int lenght;
-        int width;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the lenght of your rectangle: ");
-        return lenght = sc.nextInt();
-        System.out.println("Enter the width of your rectangle: ");
-        return width = sc.nextInt();
-
-        int Area = lenght()* width();
+        System.out.print("Enter the length of your rectangle: ");
+        int x = sc.nextInt();
+        System.out.print("Enter the width of your rectangle: ");
+        int y = sc.nextInt();
+        int Area = length(x) * width(y);
         System.out.println("The area of your rectangle is: " + Area);
-
     }
 }
