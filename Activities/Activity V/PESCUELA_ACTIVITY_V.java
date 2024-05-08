@@ -7,13 +7,13 @@ public class PESCUELA_ACTIVITY_V{
 	int age=sc.nextInt();
 
 	if (age >= 0 && age <= 11){
-        {System.out.println("Child");
-        }else if (age >= 12 && age <= 17){
+        System.out.println("Child");
+        } else if (age >= 12 && age <= 17){
         System.out.println("Teen");
-	    } else if (age >= 18 && age <= 64){
-	    System.out.println("Adult");
-	    }else{
-	    System.out.println("Reached Age Limit");
+	} else if (age >= 18 && age <= 64){
+	System.out.println("Adult");
+	}else{
+	System.out.println("Reached Age Limit");
         }
     }
 }
