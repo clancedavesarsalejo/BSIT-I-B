@@ -1,20 +1,22 @@
 import java.util.Scanner;
 public class SUMONOD_ACTIVITY_I {
-  static void width(int x){
-    x = 0;
-  }
-  static void length(int y){
-    y = 0;
-  }
-  public static void main(String []args){
-    int formula = x * y;
+  static int width(){
     Scanner sc = new Scanner(System.in);
     System.out.print("Input value for width: ");
-    int x = sc.nextInt();
-    System.out.print("Input value for length: ");
-    int y = sc.nextInt();
-
-    System.out.println(formula):
-    sc.close();
+    int width = sc.nextInt();
+    return width;
   }
+  static int length(){
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Input value for length: ");
+    int length = sc.nextInt();
+    return length;
+  }
+  public static void main(String []args){
+    int getWidth = width();
+    int getLegnth = length();
+    int area = getWidth * getLegnth;
+    System.out.println("Area: " + area);
+      
+      }
 }
