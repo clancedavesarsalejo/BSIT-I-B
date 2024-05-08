@@ -12,12 +12,13 @@ public class SUMONOD_ACTIVITY_III {
       }
     }
     double sum = 0;
+    int totalScore = average.length * average.length;
     for(int i = 0;i < average.length; i++){
       for(int o = 0;o < average[i].length; o++){
         sum += average[i][o];
       }
     }
-    System.out.println(sum / average.length);
+    System.out.println(sum / totalScore);
 
     sc.close();
   }
