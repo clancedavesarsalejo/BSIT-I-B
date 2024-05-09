@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Generale_Activity_I {
+public class GENERALE_ACTIVITY_I {
     public static void main(String []args){
         String [] menu = {"Joseph","Clance", "Rogelio", "Joshua", "Jemar"};
         Scanner sc = new Scanner(System.in);
