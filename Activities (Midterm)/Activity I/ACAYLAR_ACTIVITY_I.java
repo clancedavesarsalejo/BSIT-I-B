@@ -8,7 +8,8 @@ public class ACAYLAR_ACTIVITY_I {
         String[] names = new String[5];
 
         for (int i = 0; i < names.length; i++) {
-            System.out.print("Enter name" + (1 + 1) + ":");
+            System.out.print("Enter name " + (i + 1) + ": ");
+            names[i] = sc.nextLine(); // Store the entered name in the array
         }
 
         System.out.print("Enter the number on the list of names you want to display: ");
@@ -17,7 +18,9 @@ public class ACAYLAR_ACTIVITY_I {
         if (index >= 1 && index <= names.length) {
             System.out.println("You have selected " + names[index - 1] + ".");
         } else {
-            System.out.println("invalid index");
+            System.out.println("Invalid index");
         }
+        
+        sc.close(); // Close the scanner at the end to prevent resource leak
     }
 }
