@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class LIM_Activity_II {
+public class LIM_ACTIVITY_II {
     public static void main (String []args) {
             Scanner sc = new Scanner(System.in);
             
