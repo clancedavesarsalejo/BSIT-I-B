@@ -8,7 +8,7 @@ class ACAYLAR_ACTIVITY_II {
     }
 
     public static void main(String[] args) {
-        Scammer sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the feet: ");
         double feet = sc.nextDouble();
         feetandinch(feet);
