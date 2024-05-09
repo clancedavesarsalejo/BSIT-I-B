@@ -1,4 +1,4 @@
-public class LIM_Activity_I {
+public class LIM_ACTIVITY_I {
     pulic static void main (String []args){
 
         int a = 15;
