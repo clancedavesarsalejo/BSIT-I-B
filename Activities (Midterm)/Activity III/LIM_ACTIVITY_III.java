@@ -1,21 +1,25 @@
 import java.util.Scanner;
-
 public class LIM_ACTIVITY_III {
-    public static void main (String []args){
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your scores: ");
-        int  [][] score = new int [5] [5];
-        for (int x=0; x<score.length; x++){
-            for(int y=0; y<score.length; y++){
-            System.out.print("Enter your score" + " of row #" + (y+1)+ ": ");
-            score [x] [y] = sc.nextInt();
+    public static void main(String []args){
+    Scanner sc = new Scanner(System.in);
 
-            }
-            int sum=0;
-            System.out.println(sum / score.length);
-        }
-        
-        sc.close();
+    int[][] average = new int[5][5];
+
+    for(int x = 0;x < 5; x++){
+      for(int y = 0;y < 5; y++){
+        System.out.print("Enter Value " + (x + 1) + ": ");
+        average[x][y] = sc.nextInt();
+      }
     }
+    double sum = 0;
+    int totalScore = average.length * average.length;
+    for(int i = 0;i < average.length; i++){
+      for(int o = 0;o < average[i].length; o++){
+        sum += average[i][o];
+      }
+    }
+    System.out.println(sum / totalScore);
+
+    sc.close();
+  }
 }
