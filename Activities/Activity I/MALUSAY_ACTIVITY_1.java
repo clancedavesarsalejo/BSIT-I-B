@@ -1,6 +1,4 @@
-package MALUSAY_ACTIVITY_1.java;
-
-public class MALUSAY_)ACTIVITY_1 {
+public class MALUSAY_ACTIVITY_1 {
     public static void main(String[] args){
         int a = 10;
         int b = 20;
