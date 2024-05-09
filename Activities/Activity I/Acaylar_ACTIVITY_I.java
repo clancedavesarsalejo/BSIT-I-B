@@ -1,4 +1,4 @@
-public class Acaylar_ACTIVITY_I {
+public class ACAYLAR_ACTIVITY_I {
 public static void main(String[] args) {
     //Declare Variables
     int a = 12;
