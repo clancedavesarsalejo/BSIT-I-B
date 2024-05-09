@@ -1,4 +1,4 @@
-public class Generale_Activity_I {
+public class GENERALE_ACTIVITY_I {
     pulic static void main (String []args){
 
         int a = 15;
