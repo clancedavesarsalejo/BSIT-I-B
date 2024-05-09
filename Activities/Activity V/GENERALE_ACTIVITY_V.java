@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Generale_Activity_V {
+public class GENERALE_ACTIVITY_V {
     /**
      * @param args
      */
